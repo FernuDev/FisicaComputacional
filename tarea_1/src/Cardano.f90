@@ -9,7 +9,7 @@ program Cardano
 
     i_unit = (0.0, 1.0)
 
-! --- Entrada de coeficientes ---
+    ! --- Entrada de coeficientes ---
     print *, "Digita los coeficientes de tu ecuación de tercer grado"
 
     write(*,'(A)', advance="no"); print *, "a: "; read *, a
